@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #e8e7e8;
+    background-image: url("../public/static/images/negative-space-abstract-shape-pattern-background-5.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #000;
+}
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-size: 4rem;
+    padding: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: #000;
+    margin-left: 0rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.navbar {
+    align-items: center;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #000;
+    }
+    49% {
+        background-color: #000;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+/* @keyframes test {
+    50% {
+        letter-spacing: 10px;
+    }
+} */
