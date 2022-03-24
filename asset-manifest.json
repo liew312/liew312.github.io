@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7fbb751c.css",
-    "main.js": "/static/js/main.3b1f7569.js",
+    "main.js": "/static/js/main.ae1c1c7d.js",
     "static/media/negative-space-abstract-shape-pattern-background-5.jpg": "/static/media/negative-space-abstract-shape-pattern-background-5.d1e4648cb0894f709fa9.jpg",
     "index.html": "/index.html",
     "main.7fbb751c.css.map": "/static/css/main.7fbb751c.css.map",
-    "main.3b1f7569.js.map": "/static/js/main.3b1f7569.js.map"
+    "main.ae1c1c7d.js.map": "/static/js/main.ae1c1c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.7fbb751c.css",
-    "static/js/main.3b1f7569.js"
+    "static/js/main.ae1c1c7d.js"
   ]
 }
