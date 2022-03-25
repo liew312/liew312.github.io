@@ -29,7 +29,7 @@ export default function About() {
                     setText((prevText) => prevText.slice(0, -1));
                 }
             }
-        }, typeDelay + Math.random() * typeDelay);
+        }, 50 + Math.random() * typeDelay);
 
         //still typing
         if (!startErasing) {
@@ -42,12 +42,10 @@ export default function About() {
                         setTextArrIndex(textArrIndex + 1);
                     }
 
-                    setTimeout(() => {
-                        setIsTypingFinished(false);
-                    }, 3000);
+                    setIsTypingFinished(false);
                     setTimeout(() => {
                         setStartErasing(true);
-                    }, 4000);
+                    }, 1000);
                 }, pause);
 
                 clearTimeout(timer);
