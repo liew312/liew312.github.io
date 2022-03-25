@@ -4,8 +4,8 @@ import styled, { css, keyframes } from "styled-components";
 //https://www.tutorialrepublic.com/codelab.php?topic=css3&file=animate-letter-spacing-property
 var test = keyframes`
 40% {
-    text-indent: max(calc((100vw - 8 * 4rem) / 7), 0.8rem);
-    letter-spacing: max(calc((100vw - 8 * 4rem) / 7), 0.8rem);
+    text-indent: max(calc((100vw - 8 * 4rem) / 8), 0.8rem);
+    letter-spacing: max(calc((100vw - 8 * 4rem) / 8), 0.8rem);
 }
 `;
 const animationRule = css`
