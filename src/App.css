@@ -7,9 +7,10 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #e8e7e8;
     background-image: url("../public/static/images/negative-space-abstract-shape-pattern-background-5.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-repeat: repeat;
+    background-size: cover;
     color: #000;
+    height: 100vh;
 }
 .container {
     height: 90vh;
@@ -20,9 +21,21 @@ body {
 
 .container p {
     font-size: 4rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     text-align: center;
     overflow: hidden;
+    letter-spacing: 0.1rem;
+    min-width: 100vw;
+}
+
+#homeText {
+    font-size: 4rem;
+    /* padding: 0.5rem; */
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    letter-spacing: 0.1rem;
+    min-width: 100vw;
 }
 
 .container p span.cursor {
@@ -59,3 +72,13 @@ body {
         letter-spacing: 10px;
     }
 } */
+@media screen and (max-width: 600px) {
+    .container p {
+        font-size: 2rem;
+        /* padding: 0.5rem; */
+        text-align: center;
+        overflow: hidden;
+        letter-spacing: 0.1rem;
+        min-width: 100vw;
+    }
+}

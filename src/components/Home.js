@@ -4,7 +4,8 @@ import styled, { css, keyframes } from "styled-components";
 //https://www.tutorialrepublic.com/codelab.php?topic=css3&file=animate-letter-spacing-property
 var test = keyframes`
 40% {
-    letter-spacing: 4rem;
+    text-indent: max(calc((100vw - 8 * 4rem) / 7), 0.8rem);
+    letter-spacing: max(calc((100vw - 8 * 4rem) / 7), 0.8rem);
 }
 `;
 const animationRule = css`
@@ -77,15 +78,14 @@ function Home() {
 
     return (
         <div className="container">
-            {/* <StyledP>Letter spacing</StyledP> */}
             {isTypingFinished === false ? (
-                <p>
+                <p id="homeText">
                     {leftText}
                     {<span className="cursor">&nbsp;</span>}
                     {rightText}
                 </p>
             ) : (
-                <StyledP>
+                <StyledP id="homeText">
                     {leftText}
                     {rightText}
                 </StyledP>

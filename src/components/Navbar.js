@@ -20,7 +20,12 @@ export default function Navbar() {
                         color="inherit"
                         component={Link}
                         to={`/${page}`}
-                        style={{ fontSize: "1.2rem", fontFamily: "inherit" }}
+                        style={{
+                            fontSize: "1.2rem",
+                            fontFamily: "inherit",
+                            borderBottom: "0.1rem solid",
+                            margin: "1rem",
+                        }}
                         key={page}
                     >
                         {page === "" ? "Home" : page}

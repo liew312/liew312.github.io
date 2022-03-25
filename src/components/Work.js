@@ -25,7 +25,10 @@ export default function Work() {
                             gutterBottom
                             variant="h6"
                             component="div"
-                            style={{ fontFamily: "inherit" }}
+                            style={{
+                                fontFamily: "inherit",
+                                fontWeight: "bold",
+                            }}
                         >
                             Fake News Detective
                         </Typography>
